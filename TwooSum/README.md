@@ -42,13 +42,13 @@ class Solution {
 (e.g. list = [1,2,3] & target = 4)
 - [x] We need to save the index and value at index, so we use a HashMap (named _A_) to store key - denoted k - (index value) value (index)
 - [x] Loop starts with the next index @ 0. This is 1
-- [ ] If-statement to check if the HashMap contains a key equal to the current value. $$ (4-1 = 3) ∈ A_k $$ is false
-- [x] We save the current value and the index 0. $$ A = {(1,0)} $$
+- [ ] If-statement to check if the HashMap contains a key equal to the current value. $$(4-1 = 3) ∈ A_k$$ is false
+- [x] We save the current value and the index 0. $$A = {(1,0)}$$
 - [x] Move to the next value @ index 1. This is 2.
-- [ ] If-statement to check if the HashMap contains a key equal to the current value.  $$ (4-2 = 2) ∈ A_k $$ is false
-- [x] We save the current value and the index 1. $$ A = {(1,0), (2,1)} $$
+- [ ] If-statement to check if the HashMap contains a key equal to the current value.  $$(4-2 = 2) ∈ A_k$$ is false
+- [x] We save the current value and the index 1. $$A = {(1,0), (2,1)}$$
 - [x] Move to the next value @ index 2. This is 3.
-- [x] If-statement to check if the HashMap contains a key equal to the current value.  $$ (4-3 = 1) ∈ A_k $$ is true
+- [x] If-statement to check if the HashMap contains a key equal to the current value.  $$(4-3 = 1) ∈ A_k$$ is true
 - [x] Return the index of the saved value and the index of the current value
 
 
