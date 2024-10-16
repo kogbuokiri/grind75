@@ -47,8 +47,8 @@ class Solution {
 - [x] Move to the next value @ index 1. This is 2.
 - [ ] If-statement to check if the HashMap contains a key equal to the current value.  $$ (4-2 = 2) ∈ A_k $$ is false
 - [x] We save the current value and the index 1. $$ A = {(1,0), (2,1)} $$
-- [ ] Move to the next value @ index 2. This is 3.
-- [ ] If-statement to check if the HashMap contains a key equal to the current value.  $$ (4-3 = 1) ∈ A_k $$ is true
+- [x] Move to the next value @ index 2. This is 3.
+- [x] If-statement to check if the HashMap contains a key equal to the current value.  $$ (4-3 = 1) ∈ A_k $$ is true
 - [x] Return the index of the saved value and the index of the current value
 
 
